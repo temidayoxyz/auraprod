@@ -32,7 +32,10 @@ export function Navigation() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1], delay: 0.5 }}
       >
-        <a href="#" className="text-sm font-medium tracking-widest uppercase text-white/90 z-50">Aura</a>
+        <a href="#" className="flex items-center gap-3 text-sm font-medium tracking-widest uppercase text-white/90 z-50">
+          <img src="/favicon.svg" alt="Aura Logo" className="w-5 h-5" />
+          Aura
+        </a>
         
         <div className="hidden md:flex items-center gap-10 text-xs tracking-wider uppercase text-white/50">
           {navLinks.map((link) => (

@@ -5,7 +5,10 @@ export function FooterSection() {
     <footer className="bg-[#050505] pt-32 pb-16 px-8 md:px-24 border-t border-white/5">
       <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-end gap-16">
         <div>
-          <div className="text-4xl font-light text-white mb-6">Aura</div>
+          <div className="flex items-center gap-3 mb-6">
+            <img src="/favicon.svg" alt="Aura Logo" className="w-8 h-8" />
+            <div className="text-4xl font-light text-white">Aura</div>
+          </div>
           <p className="text-white/40 font-light max-w-sm text-sm leading-relaxed mb-8">
             The next generation of ambient intelligence. Available for pre-order. Shipping late 2026.
           </p>
