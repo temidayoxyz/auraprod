@@ -1,11 +1,47 @@
-<div align="center">
+# Aura
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Aura is a flagship product experience showcasing a next-generation ambient intelligence device. The design language is rooted in minimalism, emphasizing clarity, calm, and premium craftsmanship. It avoids decorative clutter in favor of a timeless, cinematic, and understated approach to storytelling.
 
-  <h1>Built with AI Studio</h2>
+## Design Philosophy
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Clarity over Decoration:** Every pixel has purpose. There are no unnecessary borders, gradients, or aggressive animations.
+- **Cinematic Scroll Experience:** The page unfolds like a film, gradually revealing the product's vision, materials, technology, and ecosystem.
+- **Typography and Proportion:** Extensive use of whitespace, refined vertical rhythm, and an elegant neutral palette.
+- **Restrained Motion:** Animations use premium easing (`cubic-bezier(0.22, 1, 0.36, 1)`) to feel inevitable and soft, guiding the eye without distraction.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Architecture & Technology
 
-</div>
+- **React 19 & Vite:** A fast, modern development environment.
+- **Tailwind CSS v4:** Utility-first styling with a bespoke minimal theme.
+- **Motion (Framer Motion):** Smooth scroll-linked animations and hardware-accelerated transitions.
+
+## Project Structure
+
+- `src/components/` - Contains all sections, thoughtfully broken down for maintainability and performance.
+  - `HeroSection`: Initial immersive introduction.
+  - `StatementSection`: Minimalist vision statement.
+  - `EnvironmentSection`: Product scale and spatial context.
+  - `InterfaceSection`: Interaction paradigm exploration.
+  - `TechSection`: The intelligence behind the surface.
+  - `AudioSection`: Acoustic architecture details.
+  - `EcosystemSection`: Connectivity and smart home integration.
+  - `MaterialsSection`: Craftsmanship and physical properties.
+  - `PrivacySection`: Edge-computing and security ethos.
+  - `SpecsSection`: Technical specifications breakdown.
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```

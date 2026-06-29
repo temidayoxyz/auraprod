@@ -1,0 +1,6 @@
+{
+  "name": "Aura Product Experience",
+  "description": "A cinematic, handcrafted product showcase website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
